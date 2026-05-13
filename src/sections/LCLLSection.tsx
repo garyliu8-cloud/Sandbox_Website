@@ -3,7 +3,7 @@ const categories = [
     name: "Quick Service Restaurants",
     desc: "Compact, standardized food concepts built for high foot traffic and fast throughput. Moderate capital requirements with proven brand systems, but margins and payback periods fall well short of what Sandbox VR delivers.",
     examples: ["Fast Casual Dining", "Dessert Concepts", "Pizza Chains", "Bakery Brands"],
-    insight: "QSR concepts top out at 15 to 20% EBITDA margins and require 2.5 to 5 years to recoup investment. Sandbox VR delivers more than double the margin at 40 to 41% and pays back in just 1.4 years.",
+    insight: "QSR concepts top out at 15 to 20% EBITDA margins and require 2.5 to 5 years to recoup investment. Sandbox VR delivers more than double the unit-level margin at 40 to 41%* and pays back in 1.4–2.5 years.",
     capex: "$300K-$2M",
     payback: "2.5-5 yrs",
     ebitda: "15-20%",
@@ -39,8 +39,8 @@ const categories = [
 
 const sbvr = {
   capex: "$1.05M",
-  payback: "1.4 yrs",
-  ebitda: "41%",
+  payback: "1.4–2.5 yrs",
+  ebitda: "41%*",
 };
 
 export default function LCLLSection() {
@@ -306,7 +306,7 @@ export default function LCLLSection() {
         >
           <strong style={{ color: "#ffffff" }}>The bottom line: </strong>
           The most capital-efficient low-labor franchises cap at 35% EBITDA with payback periods of 1.5 years or longer.
-          Sandbox VR delivers 41% EBITDA and a 1.4-year payback while offering a product that no low-capital concept can
+          Sandbox VR delivers 41% unit-level EBITDA* and a 1.4–2.5 year payback while offering a product that no low-capital concept can
           compete with on experience, pricing power, or repeat demand.
         </div>
       </div>

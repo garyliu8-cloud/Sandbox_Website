@@ -185,8 +185,8 @@ export default function FooterSection() {
             {[...Array(2)].map((_, i) => (
               <div key={i} style={{ display: "flex", gap: 60, flexShrink: 0 }}>
                 {[
-                  "41% EBITDA",
-                  "1.4yr Payback",
+                  "41% EBITDA*",
+                  "1.4–2.5yr Payback",
                   "$44 avg/session",
                   "65+ Locations",
                   "4.22★ Yelp Rating",

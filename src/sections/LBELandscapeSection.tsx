@@ -27,7 +27,7 @@ const lbeCategories = [
     footprint: "1k–10k sqft",
     desc: "Technology-infused experiences for social interaction and gameplay. Premium pricing sustained by IP and hardware barriers.",
     capex: "$1M avg",
-    payback: "1.4 yrs",
+    payback: "1.4–2.5 yrs",
     auv: "$1.5M avg",
     examples: ["Sandbox VR ★", "Zero Latency", "Ctrl V", "Activate", "EVA"],
     finding: "Sandbox VR's 41% EBITDA margin is nearly double the landscape average. Proprietary tech sustains premium pricing ($44 avg, $49 peak) that no other category can replicate.",

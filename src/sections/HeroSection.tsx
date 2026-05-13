@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 
 const kpis = [
-  { val: "41%", label: "EBITDA Margin", sub: "vs. 19% LBE avg" },
-  { val: "1.4 yrs", label: "Payback Period", sub: "2.4× faster than peers" },
+  { val: "41%", label: "EBITDA Margin*", sub: "Unit-level, pre-royalties/fees" },
+  { val: "1.4–2.5 yrs", label: "Payback Period", sub: "2.4× faster than peers" },
   { val: "$44/session", label: "Avg Session Price", sub: "$39 weekdays · $49 weekends" },
   { val: "4.94/5.00", label: "Avg Rating", sub: "Yelp + Google Maps, 45 locations" },
 ];

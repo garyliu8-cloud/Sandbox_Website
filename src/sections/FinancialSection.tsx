@@ -12,7 +12,7 @@ const marginData = [
 ];
 
 const paybackData = [
-  { label: "Sandbox VR", yrs: 1.4, highlight: true },
+  { label: "Sandbox VR", yrs: 2.5, highlight: true },
   { label: "iSMASH", yrs: 2.1 },
   { label: "Color Me Mine", yrs: 2.1 },
   { label: "Zero Latency", yrs: 2.5 },
@@ -71,7 +71,7 @@ export default function FinancialSection() {
             marginBottom: 40,
           }}
         >
-          Structural unit economics advantage with operator EBITDA margin 41% vs. peer avg 19%
+          Structural unit economics advantage with unit-level EBITDA margin* 41% vs. peer avg 19%
           (+21 ppt, 2.1× higher), sustained 2022–2024. Payback 2.4× faster than peers.
         </p>
 
@@ -90,12 +90,12 @@ export default function FinancialSection() {
             {
               num: "2.1×",
               label: "Higher EBITDA than peer average",
-              detail: "Only concept at 41% EBITDA while most peers cluster at 10–20%",
+              detail: "Only concept at 41% unit-level EBITDA* while most peers cluster at 10–20%",
             },
             {
               num: "2.4×",
               label: "Faster capital recovery",
-              detail: "1.4yr payback in tight 1.3–1.5yr range across 3 years   peers span 1–6+ yrs",
+              detail: "1.4–2.5yr payback range across locations — peers span 2–6+ yrs",
             },
             {
               num: "$282",
@@ -160,7 +160,7 @@ export default function FinancialSection() {
                 marginBottom: 6,
               }}
             >
-              EBITDA Margin
+              EBITDA Margin *
             </div>
             <div
               className="fade-in fade-in-delay-1"
@@ -266,7 +266,7 @@ export default function FinancialSection() {
                 marginBottom: 4,
               }}
             >
-              1.4 yrs
+              1.4–2.5 yrs
             </div>
             <div
               className="fade-in fade-in-delay-2"
@@ -371,6 +371,19 @@ export default function FinancialSection() {
             >
               Stable +2% over 2022–2024 (+predictability)
             </div>
+            <div
+              className="fade-in fade-in-delay-2"
+              style={{
+                fontSize: 11,
+                color: "rgba(255,255,255,0.45)",
+                marginBottom: 16,
+                lineHeight: 1.6,
+                borderLeft: "2px solid rgba(255,255,255,0.12)",
+                paddingLeft: 10,
+              }}
+            >
+              † Excludes Tenant Improvement (TI) costs covered upfront by landlords and repaid through rent. Initial cash outlay may be lower, but effective investment and ongoing rent load are higher.
+            </div>
             <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
               {capexData.map((item, i) => (
                 <div key={item.label} className={`fade-in fade-in-delay-${Math.min(i, 5)}`}>
@@ -425,6 +438,20 @@ export default function FinancialSection() {
               ))}
             </div>
           </div>
+        </div>
+
+        {/* Footnotes */}
+        <div
+          style={{
+            marginTop: 48,
+            paddingTop: 24,
+            borderTop: "1px solid rgba(255,255,255,0.08)",
+            fontSize: 11,
+            color: "rgba(255,255,255,0.38)",
+            lineHeight: 1.7,
+          }}
+        >
+          * EBITDA figures are unit-level and pre-royalties/fees. Reported margins do not reflect franchisee-level net returns after franchisor royalties, marketing fees, and other obligations.
         </div>
       </div>
     </section>

@@ -35,7 +35,7 @@ const competitors: {
     price: "$44 avg",
     ip: "7+",
     franchises: "65",
-    economics: "$1.2M–$1.8M investment; 41% EBITDA margin; 1.4-year payback — highest-returning franchise in LBE",
+    economics: "$1.2M–$1.8M investment; 41% EBITDA margin* (unit-level, pre-royalties/fees); 1.4–2.5 year payback — highest-returning franchise in LBE",
     isSandboxVR: true,
   },
   {
@@ -410,8 +410,8 @@ export default function CompetitorSection() {
         >
           <strong style={{ color: "#ffffff", fontSize: 15 }}>Sandbox VR vs. the field: </strong>
           <span style={{ fontSize: 14, color: "rgba(255,255,255,0.8)", lineHeight: 1.7 }}>
-            Sandbox VR leads the LBE benchmark on every key dimension: 41% EBITDA margin vs. a 19% landscape average,
-            1.4-year payback vs. 2.1 to 5 years for peers, and a 4.94/5.0 average rating across 45 locations.
+            Sandbox VR leads the LBE benchmark on every key dimension: 41% unit-level EBITDA margin* (pre-royalties/fees) vs. a 19% landscape average,
+            1.4–2.5 year payback vs. 2.1 to 5 years for peers, and a 4.94/5.0 average rating across 45 locations.
             No other concept pairs proprietary IP, $44 avg session pricing ($49 peak on weekends), and category-leading repeat demand.
           </span>
         </div>

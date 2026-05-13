@@ -2,12 +2,12 @@ const pillars = [
   {
     num: "I",
     title: "Structural Margin Superiority",
-    desc: "40 to 41% EBITDA margin sustained consistently from 2022 to 2024, more than double the 19% peer average. No other concept in the benchmark approaches this level. Higher margin gives franchisees the room to reinvest in performance while maintaining strong returns.",
+    desc: "40 to 41% unit-level EBITDA margin* (pre-royalties/fees) sustained consistently from 2022 to 2024, more than double the 19% peer average. No other concept in the benchmark approaches this level. Higher margin gives franchisees the room to reinvest in performance while maintaining strong returns.",
   },
   {
     num: "II",
     title: "Industry-Leading Payback Period",
-    desc: "A 1.4-year payback period is the fastest in the franchise benchmark, 2.4 times quicker than the peer average. CAPEX has remained stable at approximately $1.05M with only a 2% variance over three years, reducing buildout risk for new operators.",
+    desc: "A 1.4–2.5 year payback period is among the fastest in the franchise benchmark. CAPEX has remained stable at approximately $1.05M† with only a 2% variance over three years, reducing buildout risk for new operators.",
   },
   {
     num: "III",
